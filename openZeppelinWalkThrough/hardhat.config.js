@@ -2,6 +2,7 @@
  * @type import('hardhat/config').HardhatUserConfig
  */
 require('@nomiclabs/hardhat-ethers');
+require('@openzeppelin/hardhat-upgrades');
 require("@nomiclabs/hardhat-truffle5");
 
 const { alchemyApiKey, mnemonic } = require('./secrets.json');
